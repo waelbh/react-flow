@@ -186,7 +186,11 @@ const App = () => {
   return (
     <div data-flows="1,2;2,3">
       <div data-flow-step="1">
-        <div data-flow-point="aIn" data-flow-to="aMid,bMid">
+        <div
+          data-flow-point="aIn"
+          data-flow-to="aMid,bMid"
+          style={{ width: '150px', height: '200px' }}
+        >
           a IN
         </div>
         <div data-flow-point="bIn" data-flow-to="bMid,cMid,dMid">
